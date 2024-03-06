@@ -1,5 +1,5 @@
 # TO-DO-LIST
-Visão Geral
+## Visão Geral
 Este projeto é uma aplicação de lista de tarefas que permite adicionar, marcar como concluídas, editar e excluir tarefas.
 
 Tecnologias Utilizadas
@@ -25,11 +25,10 @@ styled-components@6.1.8
 web-vitals@2.1.4
 webfontloader@1.6.28
 
-# Como Usar
+# Como Usar 
 Para começar, siga estas etapas:
-# Criar um projeto React
+Criar um projeto React
 Execute o seguinte comando para criar um novo projeto React:
-
 npm create-react-app [nome-do-projeto]
 Iniciar o servidor
 Após criar o projeto, você pode iniciar o servidor executando o seguinte comando na raiz do projeto:
