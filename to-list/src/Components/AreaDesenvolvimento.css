@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.App{
+    width: auto;
+    padding: 40px;
+    background-color: rgb(197, 195, 195);
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 6px;
+}
+#adicionar{
+    padding: 12px;
+    border-radius: 8px;
+    color: black;
+    margin-left: 7px;
+    
+}
+#editar{
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    color: rgb(46, 73, 226);
+    margin-left: 7px;
+    width: 50px;
+    
+}
+#deletar{
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    color: rgb(46, 73, 226);
+    margin-left: 7px;
+    width: 50px;
+    
+}
+#camptext{
+    width: 350px;
+    padding: 12px;
+    border-radius: 8px;
+    color: black;
+    margin-right: 7px;
+    margin-bottom: 50PX;
+    
+ 
+}
+
+.taskContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px; /* Adiciona margem abaixo de cada tarefa */
+}
+@media screen and (max-width: 700px) {
+    .App{
+        width: auto;
+        padding: 20px;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 6px;
+    }
+    #camptext{
+        width: 290px;
+        padding: 12px;
+        border-radius: 8px;
+        color: black;
+        margin-right: 7px;
+        margin-bottom: 50PX;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .App{
+        width: auto;
+        padding: 20px;
+        background-color: rgb(130, 165, 212);
+        text-align: center;
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 6px;
+    }
+    #button{
+        padding: 10px;
+        border-radius: 8px;
+        color: black;
+        
+        
+    }
+    #camptext{
+        width: 160px;
+        padding: 10px;
+        border-radius: 8px;
+        color: black;
+        
+     
+    }
+    #camplistadtarefa{
+        padding: 10px;
+        color: white;
+        text-align: left;
+        font-size: 16px;
+        
+    }
+    .taskContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2px; /* Adiciona margem abaixo de cada tarefa */
+    }
+     
+    
+}
