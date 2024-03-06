@@ -8,7 +8,7 @@ Reagir
 HTML
 CSS
 
-# Instalação
+## Instalação
 Você pode instalar as dependências necessárias usando npm. 
 Aqui está a lista das dependências utilizadas:
 
@@ -25,13 +25,13 @@ styled-components@6.1.8
 web-vitals@2.1.4
 webfontloader@1.6.28
 
-# Como Usar 
+# Como usar o React
 Para começar, siga estas etapas:
-Criar um projeto React
+##Criar um projeto React
 Execute o seguinte comando para criar um novo projeto React:
 npm create-react-app [nome-do-projeto]
-Iniciar o servidor
-Após criar o projeto, você pode iniciar o servidor executando o seguinte comando na raiz do projeto:
 
+##Iniciar o servidor
+Após criar o projeto, você pode iniciar o servidor executando o seguinte comando na raiz do projeto:
 npm start
 Agora você pode começar a usar a aplicação de lista de tarefas no seu navegador.
